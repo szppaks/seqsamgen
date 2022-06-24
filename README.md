@@ -25,21 +25,22 @@ Different gap: if you give gaps: 1,3,5 the different gap :2,4,6.. maxpossiblegap
 
 
 ## seqsamgen config file sample
+<i>
 [sequence generating]
-#the number of the samples
-seqnum=1000
-#MOTIF file name (JASPAR PFM or HOMER PPM format)
-motiffilename=example.motif
-#If you want to use only one motif from file, vou can set the name.
-#motifname=
-#Gap sizes separated with comma.
-gaps=1,3,5
-#The length of the generated sequences
-sequence length=120
-#Motifs are ordered or not Y/N
-ordered=Y
-[other]
-#Verbose mode: set Y if qou want to print the generated motifs
-verbose mode=N
-#output directory name. If not set, it will be generated automatically
-output name=seqoutdir
+#the number of the samples<br>
+seqnum=1000<br>
+#MOTIF file name (JASPAR PFM or HOMER PPM format)<br>
+motiffilename=example.motif<br>
+#If you want to use only one motif from file, vou can set the name.<br>
+#motifname=<br>
+#Gap sizes separated with comma.<br>
+gaps=1,3,5<br>
+#The length of the generated sequences<br>
+sequence length=120<br>
+#Motifs are ordered or not Y/N<br>
+ordered=Y<br>
+[other]<br>
+#Verbose mode: set Y if qou want to print the generated motifs<br>
+verbose mode=N<br>
+#output directory name. If not set, it will be generated automatically<br>
+output name=seqoutdir<br>
