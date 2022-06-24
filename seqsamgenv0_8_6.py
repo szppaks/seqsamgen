@@ -3,7 +3,7 @@
 """
 Created on Sun Jan  9 21:09:13 2022
 
-@author: Péter Szutor
+@author: Péter Szutor, Attila Horváth
 v0.8.6
 """
 import numpy.random as nprand
